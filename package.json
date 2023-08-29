@@ -1,0 +1,30 @@
+{
+  "name": "gi-skin-selector",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.28.6",
+    "@solidjs/router": "^0.8.3",
+    "solid-js": "^1.7.11",
+    "solid-start": "^0.3.4"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.4.0",
+    "@types/node": "^18.17.12",
+    "esbuild": "^0.14.54",
+    "postcss": "^8.4.28",
+    "solid-start-node": "^0.3.4",
+    "solid-start-static": "^0.3.4",
+    "typescript": "^4.9.5",
+    "vite": "^4.4.9"
+  }
+}
