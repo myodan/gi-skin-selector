@@ -55,11 +55,16 @@
     },
     "windows": [
       {
+        "titleBarStyle": "Overlay",
+        "hiddenTitle": true,
         "fullscreen": false,
-        "height": 600,
+        "height": 800,
         "resizable": true,
-        "title": "gi-skin-selector",
-        "width": 800
+        "title": "GI Skin Selector",
+        "width": 1280,
+        "minHeight": 700,
+        "minWidth": 1100,
+        "decorations": false
       }
     ]
   }
