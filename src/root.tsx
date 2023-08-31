@@ -1,7 +1,6 @@
 // @refresh reload
 import { Suspense } from "solid-js";
 import {
-  A,
   Body,
   ErrorBoundary,
   FileRoutes,
@@ -13,6 +12,7 @@ import {
   Title,
 } from "solid-start";
 import "./root.css";
+import { WindowController } from "./components/WindowController";
 
 export default function Root() {
   return (
@@ -23,10 +23,9 @@ export default function Root() {
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Body>
+        <WindowController title="Genshin Impact Skin Selector" />
         <Suspense>
           <ErrorBoundary>
-            <A href="/">Index</A>
-            <A href="/about">About</A>
             <Routes>
               <FileRoutes />
             </Routes>

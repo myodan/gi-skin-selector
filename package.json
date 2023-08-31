@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@pandacss/dev": "^0.13.0",
+    "@tauri-apps/api": "^1.4.0",
     "@tauri-apps/cli": "^1.4.0",
     "@types/node": "^18.17.12",
     "esbuild": "^0.14.54",
