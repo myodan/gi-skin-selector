@@ -28,6 +28,6 @@
     "solid-start-node": "^0.3.4",
     "solid-start-static": "^0.3.4",
     "typescript": "^4.9.5",
-    "vite": "^4.4.9"
+    "vite": "^4.4.12"
   }
 }
